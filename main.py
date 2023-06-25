@@ -12,7 +12,7 @@ app.config['SECRET_KEY'] = '**************************'
 Bootstrap(app)
 
 #Baza danych
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///movies.db"
+app.config['SQLALCHEMY_DATABASE_URI'] = "*********"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
